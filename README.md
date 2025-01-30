@@ -4,14 +4,14 @@
 
 ### Setup
 ```bash
-source /opt/ros/noetic/setup.bash   # Load ROS environment
+source /opt/ros/noetic/setup.bash    # Load ROS environment
 roscore                              # Start ROS Master
 ```
 
 ### Nodes & Topics
 ```bash
-rosrun <package> <node>              # Run a node
-rosnode list                         # List active nodes
+rosrun <package> <node>               # Run a node
+rosnode list                          # List active nodes
 rosnode info <node>                   # Get node info
 rostopic list                         # List available topics
 rostopic echo <topic>                 # View topic data
@@ -21,7 +21,7 @@ rostopic info <topic>                 # Get topic info
 
 ### Messages & Services
 ```bash
-rosmsg show <message_type>            # Show message structure
+rosmsg show <message_type>             # Show message structure
 rossrv list                            # List all available services
 rossrv show <service_type>             # Show service definition
 rosservice call <service> <args>       # Call a service
@@ -46,8 +46,8 @@ source /opt/ros/humble/setup.bash     # Load ROS 2 environment
 
 ### Nodes & Topics
 ```bash
-ros2 run <package> <node>             # Run a node
-ros2 node list                        # List active nodes
+ros2 run <package> <node>              # Run a node
+ros2 node list                         # List active nodes
 ros2 node info <node>                  # Get node info
 ros2 topic list                        # List topics
 ros2 topic echo <topic>                # View topic data
